@@ -1,0 +1,10 @@
+# Temps and binaries
+*~
+\#*
+*.o
+*.hi
+hakyll
+
+# Generated files
+_cache/
+_site/

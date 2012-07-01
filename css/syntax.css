@@ -1,0 +1,85 @@
+article code {
+  font-size: 0.83em;
+  font-family: 'Inconsolata', monospace;
+  background-color: #fafafa;
+  border: 1px solid #c8c8c8;
+  padding-left: 4px;
+  padding-right: 4px; }
+
+pre.terminal, code.sourceCode {
+  margin: 0px;
+  margin-bottom: 2em;
+  word-wrap: normal;
+  vertical-align: baseline;
+  overflow-x: auto;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px; }
+
+pre.terminal span#prompt {
+  color: #c5c525; }
+
+code.sourceCode {
+  display: block;
+  color: #1d1d1d;
+  padding: 20px;
+  background-color: #fbfbfb;
+  border: 1px solid #efefef; }
+
+pre.terminal {
+  font-family: 'Inconsolata', monospace;
+  font-size: 0.83em;
+  text-shadow: none;
+  color: #b7b7b7;
+  border: 1px solid #efefef;
+  padding: 10px;
+  background: #363636; }
+
+table.sourceCode {
+  border: 1px solid #efefef;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0; }
+
+tr.sourceCode {
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0; }
+
+td.lineNumbers, td.sourceCode {
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0; }
+
+table.sourceCode pre {
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0; }
+
+td.lineNumbers {
+  border-right: 1px solid #aaaaaa;
+  text-align: right;
+  color: #aaaaaa;
+  padding: 0 5px; }
+td.sourceCode {
+  padding-left: 5px; }
+
+code.sourceCode span.kw {
+  color: #007020;
+  font-weight: 700; }
+code.sourceCode span.dt {
+  color: #902000; }
+code.sourceCode span.co {
+  color: #60a0b0;
+  font-style: italic; }
+code.sourceCode span.ot {
+  color: #007020; }
+code.sourceCode span.fu {
+  color: #06287e; }
+code.sourceCode span.dv, code.sourceCode span.bn, code.sourceCode span.fl {
+  color: #40a070; }
+code.sourceCode span.ch, code.sourceCode span.st {
+  color: #4070a0; }
+code.sourceCode span.al, code.sourceCode span.er {
+  color: red;
+  font-weight: 700; }

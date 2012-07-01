@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>$title$</title>
+    <meta name="author" content="Andres">
+    <meta name="description" content="$description$">
+    <meta name="keywords" content="$keywords$">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
+    <!--[if lt IE 9]>
+    <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" media="all" href="/css/site.css">
+    <link rel="stylesheet" type="text/css" href="/css/syntax.css">
+    <link rel="shortcut icon" type="image/png" href="/images/favicon.ico">
+  </head>
+
+  <body class="$bodyclass$">
+    <div class='mobile column hidden' id='mobile'>
+      <a href="/"><img src="/images/topleft.png"/></a>
+      <div id="htmltagcloud">
+        $tagcloud$
+      </div>
+    </div>
+    <header class="home">
+      <h1><a href="/" title="back to post overview"></a></h1>
+      <div id="htmltagcloud">
+        $tagcloud$
+      </div>
+    </header>
+    <div class="container">
+    $body$
+    <footer>
+      <p><a href="/about.html" title="About">About</a>
+       &middot; <a href="/rss.xml" title="Feed">RSS</a>
+       &middot; <a href="mailto:pq@lavabit.com" title="Send me an email">Email</a>
+       &middot; <a href="https://github.com/p-q/pqblog" title="Source code of the blog">Source</a>
+      </p>
+    </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.timeago.js"></script>
+    <script type="text/javascript" src="/js/blog.ui.js"></script>
+    $mathjax$
+  </body>
+</html>
