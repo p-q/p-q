@@ -23,18 +23,18 @@
 
   $.extend($.timeago, {
     settings: {
-      refreshMillis: 60000,
+      refreshMillis: 0,
       allowFuture: false,
       strings: {
         prefixAgo: null,
         prefixFromNow: null,
         suffixAgo: "ago",
         suffixFromNow: "from now",
-        seconds: "less than a minute",
-        minute: "about a minute",
-        minutes: "%d minutes",
-        hour: "about an hour",
-        hours: "about %d hours",
+        seconds: "less than a day",
+        minute: "less than a day",
+        minutes: "less than a day",
+        hour: "less than a day",
+        hours: "less than a day",
         day: "a day",
         days: "%d days",
         month: "about a month",
