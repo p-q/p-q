@@ -3,8 +3,10 @@
 \#*
 *.o
 *.hi
+*.swp
 hakyll
 
 # Generated files
 _cache/
 _site/
+_deploy/
