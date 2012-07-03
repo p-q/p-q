@@ -10,11 +10,11 @@ cp -R _site/* _deploy
 
 cd _deploy
   git add .
-  git commit -m "Deploy $@"
+  git commit -m "$(echo $@)"
   git push -u origin master
 cd ../
 
 git add .
-git commit -m "Deploy $@"
+git commit -m "$(echo $@)"
 git push -u origin master
 
