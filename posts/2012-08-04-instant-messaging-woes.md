@@ -15,7 +15,7 @@ you are allowed to have.
 All of those issues have
 been confirmed at with least two of the following clients: Pidgin,
 Empathy, Mercury, imo.im and Ebuddy. Most of them are bugs in the
-repsective clients, but all of it is caused by the simple fact that
+respective clients, but all of it is caused by the simple fact that
 Microsoft does not like users having their way with their communication.
 Using the officially supported client is not an option, as it requires
 using a propertiary, adversarial and utterly limited operating system.
