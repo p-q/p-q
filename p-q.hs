@@ -18,7 +18,7 @@ import Data.Maybe (catMaybes, fromMaybe)
 import Hakyll
 import Text.Pandoc.Shared
 
-title = "Anðres"
+title = "Andres"
 author = "Andres"
 description = "Insights about natural, artificial and fictitious intelligence."
 keywords = "programming, haskell, linux, freedom"
