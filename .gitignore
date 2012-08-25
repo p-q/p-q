@@ -5,6 +5,7 @@
 *.hi
 *.swp
 hakyll
+p-q
 
 # Generated files
 _cache/
