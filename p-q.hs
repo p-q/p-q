@@ -135,6 +135,7 @@ feedConfiguration = FeedConfiguration
     { feedTitle = title
     , feedDescription = description
     , feedAuthorName = author
+    , feedAuthorEmail = "pq@lavabit.com"
     , feedRoot = url
     }
 
