@@ -24,8 +24,10 @@ description = "Insights about natural, artificial and fictitious intelligence."
 keywords = "programming, haskell, linux, freedom"
 url = "http://p-q.github.com"
 
+config = defaultHakyllConfiguration { inMemoryCache = False }
+
 main :: IO ()
-main = hakyll $ do
+main = hakyllWith config $ do
     -- Copy static content
     mapM_ (flip match $ route idRoute >> compile copyFileCompiler)
       [ "images/**" , "js/**", "code/**", "test.html", "robots.txt" ] 
@@ -63,6 +65,9 @@ main = hakyll $ do
       route $ setExtension ".html"
       compile $ blogCompiler
         >>> arr (renderDateField "date" "%Y-%m-%d" "Date unknown")
+        >>> arr (setField "description" description)
+        >>> arr (copyBodyToField "description")
+        >>> arr (setField "keywords" keywords)
         >>> arr (setField "bodyclass" "post")
         >>> arr (setField "tagcloud" "")
         >>> renderTagsField "prettytags" (fromCapture "tags/*")
