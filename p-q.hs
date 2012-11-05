@@ -65,7 +65,6 @@ main = hakyllWith config $ do
       route $ setExtension ".html"
       compile $ blogCompiler
         >>> arr (renderDateField "date" "%Y-%m-%d" "Date unknown")
-        >>> arr (setField "description" description)
         >>> arr (copyBodyToField "description")
         >>> arr (setField "keywords" keywords)
         >>> arr (setField "bodyclass" "post")
